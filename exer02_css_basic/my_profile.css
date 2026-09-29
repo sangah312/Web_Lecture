@@ -1,0 +1,61 @@
+.main {
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.header {
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    padding: 20px 0;
+    border-radius: 30px 30px 0 0;
+}
+.content {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.info {
+    padding: 30px;
+    background-color: skyblue;
+    display: flex;
+    gap: 15px;
+    border-radius: 20px;
+}
+.info > div > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 500px;
+    border: 2px solid white;
+}
+.name {
+    font-size: 20px;
+}
+
+.skill {
+    border: 1px solid #d2d2d2;
+    border-radius: 20px;
+    padding: 30px;
+}
+.skill > h2 {
+    color: blue;
+}
+.skill > hr {
+    border: 1px solid blue;
+}
+.badge {
+    display: flex;
+    gap: 10px;
+}
+.badge > span {
+    background-color: pink;
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-weight: 900;
+}
+.bg_green {
+    background-color: greenyellow;
+}
+.bg_gray {
+    background-color: gray;
+}

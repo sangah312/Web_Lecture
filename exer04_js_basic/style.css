@@ -1,0 +1,70 @@
+.header {
+    background-color: rgb(110, 17, 36);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.menu {
+    color: white;
+    overflow: hidden;
+    display: flex;
+    gap: 1px;
+}
+.menu div {
+    width: 20%;
+    background-color: rgb(148, 23, 23);
+    height: 60px;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+}
+
+.content {
+    overflow: hidden;
+    display: flex;
+    gap: 5px;
+    height: 350px;
+}
+.profile {
+    width: 20%;
+    float: left;
+    background-color: rgb(238, 205, 205);
+    padding: 0 20px;
+
+}
+h2 {
+    color: rgb(148, 23, 23);
+}
+
+.project {
+    width: 60%;
+    float: left;
+    padding: 0 20px;
+}
+.card {
+    border: 1px solid rgb(238, 153, 153);
+    background-color: rgb(247, 230, 230);
+    margin-bottom: 15px;
+    padding: 0 20px;
+}
+.skill {
+    width: 20%;
+    float: left;
+    padding: 0 18px;
+    background-color: rgb(238, 205, 205);
+
+}
+.footer {
+    background-color: rgb(59, 16, 16);
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
+body {
+  font-family: 'Noto Sans KR', system-ui;
+}
+
+* {
+    box-sizing: border-box;
+}
